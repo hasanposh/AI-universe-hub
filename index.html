@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI universe</title>
+    <!-- fontawsome -->
+    <script
+      src="https://kit.fontawesome.com/6b0cbd5cf0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- daisy UI Tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <div class="text-center space-y-4 my-4">
+        <h3 class="text-5xl font-bold">AI Universe Hub</h3>
+        <button class="btn text-white btn-error">Sort By Date</button>
+      </div>
+    </header>
+    <main>
+      <!-- card section -->
+      <section class="container mx-auto">
+        <!-- card container -->
+        <div
+          id="card-container"
+          class="gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <!-- <div class="card w-full border-2 border-gray-200">
+            <figure>
+              <img
+                src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Features</h2>
+              <p class="text-gray-600"> 1.
+                <span>Natural language processing</span>
+              </p>
+              <p class="text-gray-600"> 1.
+                <span>Natural language processing</span>
+              </p>
+              <p class="text-gray-600"> 1.
+                <span>Natural language processing</span>
+              </p>
+              
+              <hr />
+
+              <div class="card-actions justify-between">
+                <div>
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>
+                    <i class="fa-solid fa-calendar-days"></i><span> date</span>
+                  </p>
+                </div>
+                <button class="btn text-red-600 bg-red-50 rounded-full">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <!-- modal section -->
+      <section>
+        <dialog id="my_modal" class="w-2/3 rounded-xl p-20">
+          <div class="">
+            <form method="dialog">
+              <button
+                class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+              >
+                ✕
+              </button>
+            </form>
+            <div id="modal-box" class="gap-10 flex flex-col lg:flex-row ">
+                <!-- <div id="left-side-modal" class="flex-1 rounded-xl bg-red-100 border-2 border-red-300 space-y-2 p-5">
+                    <h3 class="text-3xl font-bold">
+                      ChatGPT is an AI-powered chatbot platform that uses OpenAI's
+                      GPT technology to simulate human conversation.
+                    </h3>
+                    <div class=" flex gap-3 ">
+                      <div class="bg-white rounded-lg text-green-600 p-4 font-bold">$10/month Basic</div>
+                      <div class="bg-white rounded-lg text-orange-400 p-4 font-bold">$10/month Basic</div>
+                      <div class="bg-white rounded-lg text-red-600 p-4 font-bold">$10/month Basic</div>
+                      
+                    </div>
+                    <div class="flex justify-between">
+                        <div > 
+                            <h3 class="text-3xl font-bold">Features</h3>
+                            <ul class="list-disc p-2">
+                                <li>blaaaa blaaaa blaaaa</li>
+                                <li>blaaaa blaaaa blaaaa</li>
+                                <li>blaaaa blaaaa blaaaa</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-3xl font-bold">Features</h3>
+                            <ul class="list-disc p-2">
+                                <li>blaaaa blaaaa blaaaa</li>
+                                <li>blaaaa blaaaa blaaaa</li>
+                                <li>blaaaa blaaaa blaaaa</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                  </div>
+              <div id="right-side-modal" class="flex-1 rounded-xl border-2 border-grey-300 space-y-2 p-5">
+                <img src="" alt="">
+                <h3 class="font-bold text-center text-3xl">hello</h3>
+                <p></p>
+              </div> -->
+              
+            </div>
+          </div>
+        </dialog>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
